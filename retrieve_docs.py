@@ -18,7 +18,7 @@ def information_retrieve(text_request: str):
     Returns:
         Dictionary with context, top_10_context, domain, query_is_abstract, obvious_answer
     """
-    url = "https://sg-nlp-dev.ml.abramad.com/chatbot-dashboard/dashboard_retrieve"
+    url = "https://-----------------/chatbot-dashboard/dashboard_retrieve"
     
     headers = {
         'accept': 'application/json',
@@ -54,4 +54,5 @@ def information_retrieve(text_request: str):
             'domain': "-1",
             'query_is_abstract': True,
             'obvious_answer': '----',
+
         }
