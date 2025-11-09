@@ -1,7 +1,3 @@
-TODO:
-- rememebr to rename the retriev service name to vector db client
-
-
 # Knowledge Base Dashboard
 
 A React and Node.js application for managing knowledge base entries.
@@ -44,4 +40,5 @@ This will start both the backend server and the frontend development server conc
 - `src/`: Frontend React application
 - `Dockerfile.client`: Docker configuration for the frontend
 - `Dockerfile.server`: Docker configuration for the backend
+
 - `docker-compose.yml`: Docker Compose configuration for orchestrating both services
